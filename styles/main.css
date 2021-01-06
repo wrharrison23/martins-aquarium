@@ -1,12 +1,16 @@
 /* Default Page Styling */
 
 * {
-    border: 1px dotted blue;
     font-family: Helvetica, Arial, sans-serif;
+    background-color:rgb(232, 237, 241)
   }
   
   img {
     height: 20vh;
+  }
+  
+  h2 {
+    text-align: center;
   }
   
   header {
@@ -16,15 +20,19 @@
     border: 1px solid black;
   }
   
-  .container {
-    display: flex;
-    justify-content: space-between;
-  
+  article{
   }
   
-  .fish-list {
+  section {
+  }
+  
+  .container {
+    display: flex;
+  }
+  
+  .main-content {
     padding-left: 2em;
-    width: 65%;
+    width: 75%;
     border: 1px solid black;
   }
   
@@ -32,3 +40,33 @@
     border: 1px solid black;
     padding: 1em;
   }
+  
+  .fish-card {
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    padding-left: 1em;
+  }
+  
+  .fish-card__text {
+    width: 70%;
+    text-align: center;
+  }
+  
+  .location-list {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+  }
+  
+  .location-card {
+    border: 1px solid black;
+    margin: 1em;
+  }
+  
+blockquote {
+    font-style: italic;
+}
+
+  /* .location-card img {
+  } */
