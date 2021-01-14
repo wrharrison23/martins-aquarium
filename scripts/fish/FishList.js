@@ -2,8 +2,8 @@
  *  FishList which renders individual fish objects as HTML
  */
 
-import { useFish } from './FishDataProvider.js'
-import { Fish } from "./Fish.js"
+import { useFish } from '/scripts/fish/FishDataProvider.js'
+import { Fish } from "/scripts/fish/Fish.js"
 
 
 let fishContainer = document.querySelector("#fish-list");
