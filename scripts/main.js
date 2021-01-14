@@ -21,3 +21,16 @@ for (const tip of allTheTips) {
 }
 
 TipList()
+
+
+
+import { useLocation } from '/scripts/locations/LocationDataProvider.js'
+import { LocationList } from '/scripts/locations/LocationList.js'
+
+const allTheLocations = useLocation()
+
+for (const location of allTheLocations) {
+    console.log(location)
+}
+
+LocationList()
