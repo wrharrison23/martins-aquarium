@@ -2,7 +2,7 @@ import { useLocation } from '/scripts/locations/LocationDataProvider.js'
 import { location } from "/scripts/locations/location.js"
 
 
-let locationContainer = document.querySelector("#location-container");
+let locationContainer = document.querySelector("#location-card-container");
 
 export function LocationList() {
   const allTheLocations = useLocation();
@@ -17,5 +17,5 @@ export function LocationList() {
 
 //   console.log(fishListHTMLString);
 
-  locationContainer.innerHTML = `<h2>Places I've Been</h2>${locationListHTMLString}`;
+  locationContainer.innerHTML = `${locationListHTMLString}`;
 }

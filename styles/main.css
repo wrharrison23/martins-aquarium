@@ -5,9 +5,9 @@
     background-color:rgb(232, 237, 241)
   }
   
-  img {
-    height: 20vh;
-  }
+header img {
+  height: 30vh;
+}
   
   h2 {
     text-align: center;
@@ -45,12 +45,15 @@
     display: flex;
     align-items: center;
     border-top: 1px solid black;
+    border-bottom: 1px solid black;
     padding-left: 1em;
+    height: 40vh;
   }
   
-  .fish-card__text {
+  .fish-card_text {
     width: 70%;
     text-align: center;
+
   }
   
   .location-list {
@@ -62,6 +65,7 @@
   .location-card {
     border: 1px solid black;
     margin: 1em;
+    width: 45%;
   }
   
 blockquote {
@@ -76,5 +80,26 @@ footer {
   border-bottom: 1px solid black;
 }
 
-  /* .location-card img {
-  } */
+.fish-image {
+  height: 35vh;
+  width: 20vw;
+}
+
+.fish_text {
+ 
+} 
+
+.location-img {
+    width: 100%;
+    height: auto;
+}
+
+#location-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.quotes-container {
+  border-bottom: 1px solid black;
+}
